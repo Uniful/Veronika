@@ -1,0 +1,47 @@
+body {
+   background-color: rgb(85, 218, 228);
+   font-family: Arial, sans-serif; 
+}
+h2, p {
+    align: center;
+    color: white;
+}
+#profile {
+    align: center;
+    color: #FFFFFF;
+    display: block;
+    margin: 30px;
+}
+.inactive-day {
+    color: #CCCCCC;
+}
+
+.active-day {
+    color: #8b192c;
+    animation: pulse 2s linear 0s infinite;
+}
+
+@keyframes pulse {
+0% {fontsize:100%;}
+50% {fontsize:150%; 
+    color:#00CC00;}
+100% {fontsize:200%;}
+}
+
+#streak {
+    align:center;
+    width:80%;
+    background-color: white;
+    border-radius: 5px;
+    color: #000000;
+    list-style: none;
+}
+div p {
+    margin: 30px;
+    color: rgb(15, 14, 87);
+    display: inline-flexbox;
+}
+ul {
+    font-size: large;
+    list-style: none;
+}
